@@ -1,0 +1,123 @@
+/* recycling gorl */
+
+.recyclinggorl{
+    position: absolute;
+    width: 793px;
+    height: 968px;
+    left: 72px;
+    top: 112px;
+}
+
+
+/* rizzcycle */
+
+.rizzcycle{
+position: absolute;
+width: 225px;
+height: 70px;
+left: 190px;
+top: 42px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 75px;
+
+color: #FFFFFF;
+}
+
+
+/* Recycling is cool */
+
+.recyclingCool{
+    position: absolute;
+    width: 717px;
+    height: 97px;
+    left: 960px;
+    top: 318px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 108px;
+    
+    color: #FFFFFF;
+}
+
+/* 62% of Americans don’t know how to recycle correctly. Don’t be one of them. */
+
+.titleDesc{
+position: absolute;
+width: 827px;
+height: 81px;
+left: 960px;
+top: 459px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 63px;
+
+color: #FFFFFF;
+}
+
+
+/* Rectangle 1 */
+
+.learnButton{
+position: absolute;
+width: 371px;
+height: 115px;
+left: 960px;
+top: 657px;
+
+background: #9FA303;
+border-radius: 20px;
+}
+
+
+
+
+/* Learn */
+
+.learnNav{
+position: absolute;
+width: 225px;
+height: 70px;
+left: 1635px;
+top: 44px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 75px;
+
+color: #FFFFFF;
+}
+
+/* Learn */
+
+.learnMore{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 75px;
+
+color: #FFFFFF;
+}
+
+
+/* Logo */
+
+.logo{
+position: absolute;
+width: 100px;
+height: 100px;
+left: 72px;
+top: 27px;
+}
