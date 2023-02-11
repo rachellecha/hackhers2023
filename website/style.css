@@ -198,3 +198,41 @@ height: 400px;
 left: 356px;
 top: 448px;
 }
+
+
+/* Classifications */
+
+.classifications{
+    position: absolute;
+    width: 548px;
+    height: 105px;
+    left: 686px;
+    top: 199px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 108px;
+
+    color: #FFFFFF;
+}
+
+
+/* What number is in the recycling symbol on your item? */
+
+.classDesc{
+    position: absolute;
+    width: 1131px;
+    height: 74px;
+    left: 394px;
+    top: 304px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 63px;
+
+    color: #FFFFFF;
+}
