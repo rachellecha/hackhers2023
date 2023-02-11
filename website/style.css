@@ -121,3 +121,80 @@
     left: 72px;
     top: 27px;
 }
+
+
+/* one */
+
+.one{
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    left: 103px;
+    top: 448px;
+}
+
+
+/* seven */
+
+.seven{
+position: absolute;
+width: 200px;
+height: 400px;
+left: 1617px;
+top: 448px;
+}
+
+
+/* six */
+
+.six{
+position: absolute;
+width: 200px;
+height: 400px;
+left: 1365px;
+top: 448px;
+}
+
+
+/* five */
+
+.five{
+position: absolute;
+width: 200px;
+height: 400px;
+left: 1112px;
+top: 448px;
+}
+
+
+/* four */
+
+.four{
+position: absolute;
+width: 200px;
+height: 400px;
+left: 860px;
+top: 448px;
+}
+
+
+/* three */
+
+.three{
+position: absolute;
+width: 200px;
+height: 400px;
+left: 608px;
+top: 448px;
+}
+
+
+/* two */
+
+.two{
+position: absolute;
+width: 200px;
+height: 400px;
+left: 356px;
+top: 448px;
+}
