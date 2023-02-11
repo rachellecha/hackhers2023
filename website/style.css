@@ -114,9 +114,10 @@ color: #FFFFFF;
 
 /* Logo */
 
-
+.logo{
 position: absolute;
 width: 100px;
 height: 100px;
 left: 72px;
 top: 27px;
+}
