@@ -108,6 +108,23 @@ color: #FFFFFF;
     top: 52px;
 }
 
+/* Text “recycle” to +1 (833) 429-0085 */
+
+.text{
+    position: absolute;
+    width: 613px;
+    height: 55px;
+    left: 667px;
+    top: 752px;
+    
+    font-family: 'Racing Sans One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    
+    color: #9FA303;
+}
 
 /* one */
 
