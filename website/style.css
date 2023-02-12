@@ -265,6 +265,26 @@ line-height: 63px;
 color: #FFFFFF;
 }
 
+
+
+/* NOT Recyclable! */
+
+.notRecyclingStatus{
+position: absolute;
+width: 341px;
+height: 59px;
+left: 469px;
+top: 251px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 63px;
+
+color: #FFFFFF;
+}
+
 /* Category One: PETE */
 
 .category{
