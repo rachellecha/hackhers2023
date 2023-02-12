@@ -78,44 +78,24 @@
     border-radius: 20px;
 }
 
-
-
-
 /* Learn */
 
-.learnNav{
-    position: absolute;
-    width: 297px;
-    height: 83px;
-    left: 1371px;
-    top: 942px;
+.learnMoreText{
+position: absolute;
+width: 209px;
+height: 45px;
+left: 661px;
+top: 522px;
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 75px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 54px;
 
-    color: #FFFFFF;
+color: #FFFFFF;
 }
 
-/* Learn */
-
-.learnMore{
-    position: absolute;
-    width: 209px;
-    height: 45px;
-    left: 661px;
-    top: 522px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 54px;
-
-    color: #FFFFFF;
-}
 
 
 /* Logo */
