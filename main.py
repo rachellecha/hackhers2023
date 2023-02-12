@@ -5,9 +5,7 @@ from dotenv import load_dotenv
 from flask import Flask, request, redirect
 from twilio.twiml.messaging_response import MessagingResponse
 
-
 load_dotenv()
-
 
 # Find your Account SID and Auth Token at twilio.com/console
 # and set the environment variables. See http://twil.io/secure
@@ -15,17 +13,6 @@ account_sid = os.getenv('TWILIO_ACCOUNT_SID')
 auth_token = os.getenv('TWILIO_AUTH_TOKEN')
 client = Client(account_sid, auth_token)
 
-#numbers = [os.getenv('rachelle'), os.getenv('ashley')]
-
-#for number in numbers:
- #   message = client.messages \
-  #      .create(
-   #         body='This is the ship that made the Kessel Run in fourteen parsecs?',
-    #        from_='+18334290085',
-     #       to=number
-      #  )
-
-#print(message.sid)
 
 app = Flask(__name__)
 
@@ -39,23 +26,29 @@ def incoming_sms():
     resp = MessagingResponse()
 
     # Determine the right reply for this message
-    if body == 'help!':
+    if body == 'recycle':
         msg = resp.message("Hi! Welcome to our recycling helper. We will help you determine how to recycle your plastic! Please locate the recycle icon on your plastic item. What number is it?")
         msg.media('https://media.makeameme.org/created/recycling-is-too-5c0bc5.jpg')
     elif body == '1':
-        resp.message("1 is recycleable! please take to your nearest recycle facility")
+        resp.message("1 is recycleable! please take it to your nearest recycle facility. you are based in new brunswick! do you need help finding your nearest recycling center?")
     elif body == '2':
-        resp.message("2 is recycleable! please take to your nearest recycle facility")
+        resp.message("2 is recycleable! please take it to your nearest recycle facility. you are based in new brunswick! do you need help finding your nearest recycling center?")
     elif body == '3':
         resp.message("3 is not recycleable!")
     elif body == '4':
-        resp.message("4 is can sometimes be recycleable! please ask your local recycling facility")
+        resp.message("4 is can sometimes be recycleable! please ask your local recycling facility. you are based in new brunswick! do you need help finding your nearest recycling center?")
     elif body == '5':
-        resp.message("5 is can sometimes be recycleable! please ask your local recycling facility")
+        resp.message("5 is can sometimes be recycleable! please ask your local recycling facility. you are based in new brunswick! do you need help finding your nearest recycling center?")
     elif body == '6':
         resp.message("6 is not recycleable!")
     elif body == '7':
         resp.message("7 is not recycleable!")
+    elif body == 'yes':
+        resp.message("the nearest recycling center is North America Recycling Inc. in New Brunswick, NJ. do you need any more assistance? if so, please enter another plastic recycling number. if not, please type no.")
+        #resp.message("https://goo.gl/maps/ijxz23DaimL3RKpC9")
+    elif body == 'no':
+        msg = resp.message("thank you for doing your part for our planet :)")
+        msg.media("https://cdn11.bigcommerce.com/s-1mxugrbmxo/products/956/images/1346/TYR__76033.1599842162.386.513.png?c=1")
 
     return str(resp)
 
