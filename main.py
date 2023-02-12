@@ -34,15 +34,15 @@ def incoming_sms():
     elif body == '2':
         resp.message("2 is recycleable! please take it to your nearest recycle facility. you are based in new brunswick! do you need help finding your nearest recycling center?")
     elif body == '3':
-        resp.message("3 is not recycleable!")
+        resp.message("3 is not recycleable! do you need any more assistance? if so, please enter another plastic recycling number. if not, please type no.")
     elif body == '4':
         resp.message("4 is can sometimes be recycleable! please ask your local recycling facility. you are based in new brunswick! do you need help finding your nearest recycling center?")
     elif body == '5':
         resp.message("5 is can sometimes be recycleable! please ask your local recycling facility. you are based in new brunswick! do you need help finding your nearest recycling center?")
     elif body == '6':
-        resp.message("6 is not recycleable!")
+        resp.message("6 is not recycleable! do you need any more assistance? if so, please enter another plastic recycling number. if not, please type no.")
     elif body == '7':
-        resp.message("7 is not recycleable!")
+        resp.message("7 is not recycleable! do you need any more assistance? if so, please enter another plastic recycling number. if not, please type no.")
     elif body == 'yes':
         resp.message("the nearest recycling center is North America Recycling Inc. in New Brunswick, NJ. do you need any more assistance? if so, please enter another plastic recycling number. if not, please type no.")
         #resp.message("https://goo.gl/maps/ijxz23DaimL3RKpC9")
